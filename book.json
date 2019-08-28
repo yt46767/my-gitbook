@@ -27,12 +27,12 @@
       },
         "expandable-chapters": {},
         "insert-logo": {
-          "url": "./assets/images/logo.png",
+          "url": "https://picabstract-preview-ftn.weiyun.com/ftn_pic_abs_v3/8187a0d386ce4ee1dcdac23990201f40c9103145a06157911232778f92dd34f1cd61ebeeb05e5c1813cd8b2e7353c934?pictype=scale&from=30113&version=3.3.3.3&uin=467675016&fname=logo.png&size=750",
           "title": "privatebook",
           "style": "background: none; max-height: 30px; min-height: 30px"
         },
         "github": {
-          "url": "https://git.code.oa.com/tobeyang"
+          "url": "https://github.com/yt46767"
         },
         "sharing": {
           "douban": false,
@@ -49,8 +49,8 @@
           ]
         },
         "donate": {
-          "wechat": "./assets/images/wepay.png",
-          "alipay": "./assets/images/alipay.png",
+          "wechat": "https://picabstract-preview-ftn.weiyun.com/ftn_pic_abs_v3/9f95164c089394264bc3c2c9392e4ebfa3c1a9610beef2a77a375b5174184da5964f50962c6b3445d433c95e8c0a0656?pictype=scale&from=30113&version=3.3.3.3&uin=467675016&fname=wepay.png&size=750",
+          "alipay": "https://picabstract-preview-ftn.weiyun.com/ftn_pic_abs_v3/e1952ad1bd01391a993c583b90cdc037cee98d72a36e9f5242b0309716da19bb291d407a9c99512d4d5ec199ac50c080?pictype=scale&from=30113&version=3.3.3.3&uin=467675016&fname=alipay.png&size=750",
           "title": "",
           "button": "赏",
           "alipayText": "支付宝打赏",
@@ -58,11 +58,6 @@
         },
         "hide-element": {
           "elements": [".gitbook-link"]
-        }
-    },
-    "links": {
-        "sidebar": {
-            "home": "https://git.code.oa.com/tobeyang"
         }
     }
   }

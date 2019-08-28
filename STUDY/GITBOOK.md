@@ -44,6 +44,8 @@ logo: "insert-logo"
 页面添加页脚: "tbfed-pagefooter"   
 打赏: "donate"   
 自动生成目录树："atoc"
+参考：
+http://gitbook.zhangjikai.com/plugins.html
 
 # 【问题】Error loading version latest: Error: Cannot find module 'internal/util/types'
 原因：
