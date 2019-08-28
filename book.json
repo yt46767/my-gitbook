@@ -1,0 +1,68 @@
+{
+    "title": "MyGitBook",
+    "structure": {
+      "readme": "README.md"
+    },
+    "language": "zh-hans",
+    "plugins": [
+      "-sharing",
+      "-highlight",
+      "prism",
+      "search-pro",
+      "copy-code-button",
+      "tbfed-pagefooter",
+      "expandable-chapters",
+      "insert-logo",
+      "github",
+      "sharing-plus",
+      "donate",
+      "hide-element",
+      "navigator"
+    ],
+    "pluginsConfig": {
+      "tbfed-pagefooter": {
+        "copyright": "Copyright (c) 2019 Fit Web Front End Tobeyang.",
+        "modify_label": "time：",
+        "modify_format": "YYYY-MM-DD HH:mm:ss"
+      },
+        "expandable-chapters": {},
+        "insert-logo": {
+          "url": "./assets/images/logo.png",
+          "title": "privatebook",
+          "style": "background: none; max-height: 30px; min-height: 30px"
+        },
+        "github": {
+          "url": "https://git.code.oa.com/tobeyang"
+        },
+        "sharing": {
+          "douban": false,
+          "facebook": false,
+          "google": true,
+          "pocket": false,
+          "qq": false,
+          "qzone": true,
+          "twitter": false,
+          "weibo": true,
+          "all": [
+            "douban", "facebook", "google", "instapaper", "linkedin","twitter", "weibo", 
+            "messenger","qq", "qzone","viber","whatsapp"
+          ]
+        },
+        "donate": {
+          "wechat": "./assets/images/wepay.png",
+          "alipay": "./assets/images/alipay.png",
+          "title": "",
+          "button": "赏",
+          "alipayText": "支付宝打赏",
+          "wechatText": "微信打赏"
+        },
+        "hide-element": {
+          "elements": [".gitbook-link"]
+        }
+    },
+    "links": {
+        "sidebar": {
+            "home": "https://git.code.oa.com/tobeyang"
+        }
+    }
+  }
