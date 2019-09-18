@@ -1,0 +1,25 @@
+## windows 系统 GitBook生成PDF、epub报错Error during ebook generation: 'ebook-convert' 乱码  
+解决：  
+https://www.cnblogs.com/gobyte/p/10953081.html  
+
+## gitbook导出的pdf不显示图片  
+解决：  
+把图片放到文件的当前文件夹里，用./引入  
+
+## gitbook serve 在window热加载失败的解决办法：  
+（1）修改文件：C:\Users\tobeyang\.gitbook\versions\3.2.2\lib\cli\serve.js  
+![Image Text](gitbook-serve-livereload-1.png)  
+![Image Text](gitbook-serve-livereload-2.png)  
+实现：第一次启动成功后，删除_book文件夹
+解决：重新编译，权限不通过。 
+
+增加异常捕获
+![Image Text](gitbook-serve-livereload-catch1.png)  
+![Image Text](gitbook-serve-livereload-catch2.png)  
+解决：新增文件时，编译权限不通过
+
+（2）修改文件：C:\Users\tobeyang\.gitbook\versions\3.2.2\lib\output\website\copyPluginAssets.js  
+![Image Text](gitbook-serve-livereload-3.png)  
+将 confirm: true 改为 confirm: false  
+解决：复制粘贴内容，实现热加载  
+（3）md文件不能为空，否则编译失败。

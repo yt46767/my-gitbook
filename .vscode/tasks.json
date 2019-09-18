@@ -1,0 +1,25 @@
+{
+// 有关 tasks.json 格式的文档，请参见
+    // https://go.microsoft.com/fwlink/?LinkId=733558
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "npm",
+            "script": "install",
+            "path": "_book/gitbook/gitbook-plugin-navigator/",
+            "problemMatcher": []
+        },
+        {
+            "taskName": "Chrome",
+            "type": "process",
+            "command": "chrome.exe",
+            "windows": {
+                "command": "C:\\Users\\tobeyang\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe"  
+            },
+            "args": [
+                "${file}"
+            ],
+            "problemMatcher": []
+        }
+    ]
+}

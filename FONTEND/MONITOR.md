@@ -1,10 +1,11 @@
-# 前端错误监控
+<!-- toc -->
+## 前端错误监控
 + 原理
     + 写入前端代码
     window.onerror=function(a,b,c,d,e){(new Image).src=`/m?p=${location.href}&`}
 + 第三方组件——badjs
 
-# 错误日志监控
+## 错误日志监控
 + Doc  
 [官方git](https://github.com/getsentry)      
 [官方git-前端js](https://github.com/getsentry/sentry-javascript)     
@@ -22,3 +23,4 @@ https://sentry.io/yangtao/yangtao/getting-started/javascript/
     + auth token创建    
     ![Image Text](sentry_authToken.png) 
     https://sentry.io/settings/account/api/auth-tokens/  
+<!-- endtoc -->

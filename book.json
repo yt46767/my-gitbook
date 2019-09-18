@@ -1,23 +1,30 @@
 {
-    "title": "MyGitBook",
+    "title": "tobeyang的书",
     "structure": {
       "readme": "README.md"
     },
     "language": "zh-hans",
+    "theme-default": {
+      "showLevel": false
+    },
     "plugins": [
-      "-sharing",
-      "-highlight",
+      "fontsettings",
+      "lunr",
+      "livereload",
+      "highlight",
       "prism",
       "search-pro",
       "copy-code-button",
       "tbfed-pagefooter",
-      "expandable-chapters",
       "insert-logo",
       "github",
       "sharing-plus",
       "donate",
       "hide-element",
-      "navigator"
+      "navigator",
+      "toggle-chapters",
+      "theme-comscore",
+      "splitter"
     ],
     "pluginsConfig": {
       "tbfed-pagefooter": {
@@ -25,9 +32,8 @@
         "modify_label": "time：",
         "modify_format": "YYYY-MM-DD HH:mm:ss"
       },
-        "expandable-chapters": {},
         "insert-logo": {
-          "url": "https://picabstract-preview-ftn.weiyun.com/ftn_pic_abs_v3/8187a0d386ce4ee1dcdac23990201f40c9103145a06157911232778f92dd34f1cd61ebeeb05e5c1813cd8b2e7353c934?pictype=scale&from=30113&version=3.3.3.3&uin=467675016&fname=logo.png&size=750",
+          "url": "https://picabstract-preview-ftn.weiyun.com/ftn_pic_abs_v3/b6d9649e2a7f520e525023219f89e651585d22e4a4b721b32bc4074aae63e7257ed9bbe190dd3c45409a2276c07e17a9?pictype=scale&from=30113&version=3.3.3.3&uin=467675016&fname=logo.png&size=750",
           "title": "privatebook",
           "style": "background: none; max-height: 30px; min-height: 30px"
         },
