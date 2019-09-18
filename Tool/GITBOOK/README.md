@@ -42,11 +42,11 @@ https://www.zhihu.com/question/270284604/answer/766617038
 解决：  
 gitbook fetch 3.2.2  
 
-## 安装gitbook  
-tnpm install gitbook-cli -g  
+# 安装gitbook-cli客户端
+npm install gitbook-cli -g
 
-## 查看gitbook版本  
-gitbook -V  
+# 查看gitbook版本，并安装gitbook
+gitbook -V
 
 ## Gitbook个人不错的使用教程  
 https://skyao.gitbooks.io/learning-gitbook/content/creation/multiple_lang.html  

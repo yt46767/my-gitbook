@@ -12,11 +12,34 @@ https://www.cnblogs.com/gobyte/p/10953081.html
 ![Image Text](gitbook-serve-livereload-2.png)  
 实现：第一次启动成功后，删除_book文件夹
 解决：重新编译，权限不通过。 
+增加代码：
+```
+var process = require('child_process');
+var isFirst = true;
+```
+```
+if(isFirst){
+    process.exec('rm -rf _book', function(err){ //当成功时，error是null
+        if(err === null){
+            console.log('delete folder _book success!');
+        }else{
+            console.log('delete folder _book fail!Because: ' + err);
+        }
+        isFirst = null;
+    });
+}
+```
 
 增加异常捕获
 ![Image Text](gitbook-serve-livereload-catch1.png)  
 ![Image Text](gitbook-serve-livereload-catch2.png)  
 解决：新增文件时，编译权限不通过
+增加代码：
+```
+.catch(function(err){
+    console.log(error1);
+});
+```
 
 （2）修改文件：C:\Users\tobeyang\.gitbook\versions\3.2.2\lib\output\website\copyPluginAssets.js  
 ![Image Text](gitbook-serve-livereload-3.png)  
