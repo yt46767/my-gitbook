@@ -11,4 +11,15 @@ Microsoft Windows [版本 10.0.17763.593]
 
 ## microsoft store 个人资料设置
 https://account.microsoft.com/profile/preferred-language-selector
+
+## 查看运行的tcp端口及其进程号：
+netstat -ano
+
+## 查看进程号对应的程序
+netstat -aon|findstr pid
+
+## 杀掉该程序
+taskkill /f /t /im com.docker.backend.exe
+参考：
+https://www.cnblogs.com/micenote/p/6063242.html
 <!-- endtoc -->

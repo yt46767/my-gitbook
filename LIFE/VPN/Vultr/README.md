@@ -7,16 +7,22 @@ https://wistbean.github.io/vultr-vps-bbr-ss.html
 ## 搭建ssr  
 https://www.itwordsweb.com/linux_doc/ss.html  
 
-SSR的密码&&端口：  
+SSR的密码&&端口：(0-65535)  
 Tencent123-  
 12508  
 改为：  
 25352  
+改为：  
+25553  
+改为：  
+80  
+改为：  
+25959  
 
 ## VPN  
 Congratulations, Shadowsocks-python server install completed!  
 Your Server IP        :  199.247.17.76  
-Your Server Port      :  25352  
+Your Server Port      :  80  
 Your Password         :  Tencent123-  
 Your Encryption Method:  aes-256-cfb  
 
@@ -51,8 +57,35 @@ https://www.yougetsignal.com/tools/open-ports/
 lsmod | grep bbr  
 
 ## 【问题】500 Internal Privoxy Error  
-firewall-cmd --zone=public --add-port=25352/tcp --permanent  
-firewall-cmd --reload  
+firewall-cmd --zone=public --add-port=80/tcp --permanent &&  firewall-cmd --reload  
 参考：  
 https://www.cnblogs.com/love-wife/p/10903876.html  
 
+## 腾讯文档：
+https://docs.qq.com/doc/DS3VZcUhEWUdmVmpm
+
+## vultr账号&密码：
+yt18219145842@outlook.com   
+Tencent123-
+
+## 快照备份与迁移
+https://www.laozuo.org/11188.html
+https://www.duoluodeyu.com/2481.html
+
+## ISP运营商屏蔽的常见端口如下：
+目的端口：137-139，协议：TCP/UDP
+目的端口：593，协议：TCP/UDP
+目的端口：445，协议：TCP/UDP
+目的端口：4444，协议：TCP/UDP
+目的端口：135，协议：TCP/UDP
+目的端口：3332，协议：TCP
+目的端口：9996，协议：TCP/UDP
+目的端口：6669，协议：TCP
+目的端口：1434，协议：TCP/UDP
+目的端口：3127-3130，协议：TCP
+目的端口：42，协议：TCP
+目的端口：1068，协议：TCP/UDP
+目的端口：5554，协议：UDP
+目的端口：17185，协议：UDP
+参考：
+https://www.jianshu.com/p/4ed1c21ff326
