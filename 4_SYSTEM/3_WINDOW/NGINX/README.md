@@ -1,0 +1,1 @@
+## windows下运行的Nginx,用bat实现nginx的start/stop
