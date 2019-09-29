@@ -1,0 +1,2 @@
+## 【问题】SEC7120: [CORS] 原点“ms-appx-web://microsoft.microsoftedge”无法支持“ms-appx-web:///assets/Fonts/BrowserMDL.ttf#Browser MDL2 Assets”的 cross-origin font 资源
+https://www.cnblogs.com/20180609miss/p/10276198.html

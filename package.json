@@ -5,14 +5,20 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "rm -rf _book && gitbook serve && rm -rf _book"
+    "serve-diy": "rm -rf _book && gitbook serve --timing && rm -rf _book",
+    "serve-log": "gitbook serve --timing --log=debug",
+    "build": "gitbook build ./ ./docs",
+    "git-move-local": "git remote set-url origin http://localhost:10080/root/my-gitbook.git",
+    "git-move-github": "git remote set-url origin https://github.com/yt46767/my-gitbook.git"
   },
   "dependencies": {
+    "g": "^2.0.1",
+    "gh-pages": "^2.1.1",
     "gitbook-plugin-copy-code-button": "^0.0.2",
     "gitbook-plugin-donate": "^1.0.2",
+    "gitbook-plugin-fontsettings": "^2.0.0",
     "gitbook-plugin-github": "^2.0.0",
     "gitbook-plugin-hide-element": "^0.0.4",
-    "gitbook-plugin-fontsettings": "^2.0.0",
     "gitbook-plugin-highlight": "^2.0.3",
     "gitbook-plugin-insert-logo": "^0.1.5",
     "gitbook-plugin-livereload": "^0.0.1",
@@ -24,8 +30,7 @@
     "gitbook-plugin-sharing-plus": "^0.0.2",
     "gitbook-plugin-splitter": "^0.0.8",
     "gitbook-plugin-tbfed-pagefooter": "^0.0.1",
-    "gitbook-plugin-theme-comscore": "^0.0.3",
-    "gitbook-plugin-toggle-chapters": "^0.0.3"
+    "gitbook-plugin-theme-comscore": "^0.0.3"
   },
   "devDependencies": {
     "grunt": "^1.0.4",
@@ -36,7 +41,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://git.code.oa.com/tobeyang/my-gitbook.git"
+    "url": "http://localhost:10080/root/my-gitbook.git"
   },
   "author": "",
   "license": "ISC"
