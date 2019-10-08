@@ -63,3 +63,6 @@ if(isFirst){
 }
 解决办法：
 md文件不能为空，既可解决！
+
+## 去掉或者隐藏“Published with Gitbook”/“本书使用 GitBook 发布”
+https://www.itsvse.com/thread-5819-1-1.html
