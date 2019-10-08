@@ -7,6 +7,9 @@
     "theme-default": {
       "showLevel": false
     },
+    "styles": {
+      "website": "styles/website.css"
+    },
     "plugins": [
       "fontsettings",
       "lunr",
@@ -16,30 +19,21 @@
       "search-pro",
       "copy-code-button",
       "tbfed-pagefooter",
-      "insert-logo",
       "github",
       "sharing-plus",
       "donate",
       "hide-element",
       "navigator",
-      "expandable-chapters-small",
       "theme-comscore",
       "splitter",
       "pageview-count",
-      "popup",
-      "custom-favicon"
+      "popup"
     ],
     "pluginsConfig": {
       "tbfed-pagefooter": {
         "copyright": "Copyright (c) 2019 Front End Thomas Yang.",
         "modify_label": "time：",
         "modify_format": "YYYY-MM-DD HH:mm:ss"
-      },
-      "favicon": "https://picabstract-preview-ftn.weiyun.com/ftn_pic_abs_v3/b6d9649e2a7f520e525023219f89e651585d22e4a4b721b32bc4074aae63e7257ed9bbe190dd3c45409a2276c07e17a9?pictype=scale&from=30113&version=3.3.3.3&uin=467675016&fname=logo.png&size=750",
-      "insert-logo": {
-        "url": "https://picabstract-preview-ftn.weiyun.com/ftn_pic_abs_v3/b6d9649e2a7f520e525023219f89e651585d22e4a4b721b32bc4074aae63e7257ed9bbe190dd3c45409a2276c07e17a9?pictype=scale&from=30113&version=3.3.3.3&uin=467675016&fname=logo.png&size=750",
-        "title": "privatebook",
-        "style": "background: none; max-height: 30px; min-height: 30px"
       },
       "github": {
         "url": "https://github.com/yt46767"
