@@ -25,7 +25,7 @@
         * [WIKI](1_FONTEND/3_DOCUMENT/2_WIKI/README.md)  
         * [面试](1_FONTEND/3_DOCUMENT/3_Interview/README.md)  
         * [招聘](1_FONTEND/3_DOCUMENT/4_Recuit/README.md)  
-            * [考虑的公司](1_FONTEND/3_DOCUMENT/4_Recuit/CONSIDER.md)  
+            * [公司](1_FONTEND/3_DOCUMENT/4_Recuit/CONSIDER.md)  
         * [思考](1_FONTEND/3_DOCUMENT/5_Think/README.md)  
         * [美团技术](1_FONTEND/3_DOCUMENT/6_MEITUAN/README.md)  
     * [前端监控](1_FONTEND/5_Monitor/README.md)    
