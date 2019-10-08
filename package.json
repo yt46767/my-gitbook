@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve-diy": "rm -rf _book && gitbook serve --timing && rm -rf _book",
     "serve-log": "gitbook serve --timing --log=debug",
+    "serve": "gitbook serve --timing --log=debug",
     "build": "gitbook build ./ ./docs",
     "git-move-local": "git remote set-url origin http://localhost:10080/root/my-gitbook.git",
     "git-move-github": "git remote set-url origin https://github.com/yt46767/my-gitbook.git",
