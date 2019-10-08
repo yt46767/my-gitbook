@@ -460,3 +460,6 @@ doc:
 http://www.th7.cn/Program/java/201510/633422.shtml
 
 ## 单线程socket/多线程socket
+
+## 基础补充
+https://lrh1993.gitbooks.io/android_interview_guide/content/
